@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="is_ai_tour_res_config_settings_view" model="ir.ui.view">
+        <field name="name">res.config.settings.view.form.ai.tour.inherit</field>
+        <field name="model">res.config.settings</field>
+        <field name="inherit_id" ref="base.res_config_settings_view_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//form" position="inside">
+                <app data-string="AI Settings" string="AI Settings" name="openai" logo="">
+                    <block title="AI Settings">
+                        <div class="col-xs-12 row o_settings_container o_chatgpt_chatgpt_container">
+                            <div class="col-xs-12 col-md-6 o_setting_box">
+                                <div class="o_setting_right_pane border-start-0">
+                                    <div class="content-group">
+                                        <div class="row mt8">
+                                            <label class="col-lg-3" string="API Key" for="openai_api_key"/>
+                                            <field name="openai_api_key" title="OpenAI API Key" password="True" />
+                                            <div class="text-muted">
+                                                Do not share your API key with others or expose it in the browser or other client-side code.
+                                                To protect your account's security, OpenAI may automatically disable any API key that has leaked publicly.
+                                            </div>
+                                            <div class="text-muted">
+                                            You can view and manage all API keys in this organization from here:
+                                            <a href="https://platform.openai.com/settings/organization/api-keys" target="_blank">
+                                                https://platform.openai.com/settings/organization/api-keys
+                                            </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="o_setting_right_pane border-start-0">
+                                    <div class="content-group">
+                                        <div class="row mt8">
+                                            <span class="o_form_label">Max Tokens</span>
+                                            <div class="text-muted">
+                                                An upper bound for the number of tokens that can be generated 
+                                                for a completion, including visible output tokens and reasoning tokens.
+                                            </div>
+                                            <div class="content-group mt16">
+                                                <field name="max_tokens"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </block>
+                </app>
+            </xpath>
+        </field>
+    </record>
+</odoo>

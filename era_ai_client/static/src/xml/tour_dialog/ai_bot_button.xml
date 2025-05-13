@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<templates xml:space="preserve">
+   <t t-name="era_ai_client.tour_ai_systray_icon" owl="1">
+    <div class="era-ai-icon">
+        <div class="era-ai-div-icon">
+            <!-- Button with hover trigger -->
+            <div class="toggle-icon" role="button">
+                
+                <img id="create_request" src="era_ai_client/static/src/icon/era_ai_boot.gif" alt="ERA Smart AI" 
+                    class="smart-ai-img" />  <!-- Replace button with image-->
+
+                <!-- Icons appear under the button when hovered -->
+                <div id="ai-icon-list" class="era-ai-icon-list" style="font-size: 16px;text-align:center;direction: ltr; ">
+                    
+                    <!-- <div id="SQLAIModel" class="ai-button" t-on-click="_openSQLAIModel">
+                        <span class="fa fa-database" aria-hidden="true"> AI Reports   التقارير الذكية</span>
+                        <br/>
+                    </div> -->
+                    <div id="TourAIModel" class="ai-button" t-on-click="_openTourAIModel">
+                        <span class="fa fa-globe" aria-hidden="true"> Guide me   توجيه</span>
+                        <br/>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <!-- style for img button -->
+    <style>
+        /* Position the image at the right bottom corner of the screen */
+        .era-ai-icon .era-ai-div-icon {
+            position: fixed;
+            bottom: 40px; /* Adjust this value to control the vertical positioning */
+            right: 160px; /* Adjust this value to control the horizontal positioning */
+            z-index: 9999;
+        }
+
+        /* Ensure the button has enough space and the icon list is positioned correctly */
+        .toggle-icon {
+            position: relative;
+        }
+
+        /* Ensure the image has appropriate styling */
+        .smart-ai-img {
+            width: 90px; /* Adjust image size */
+            height: 90px; /* Adjust image size */
+            cursor: pointer; /* Change cursor to indicate it's clickable */
+            border-radius: 50%; /* Optional: Make the image circular */
+        }
+
+        /* By default, hide the icon list */
+        .era-ai-icon-list {
+            display: none;
+            position: absolute;
+            top: -40%; /* Position icons directly below the button */
+            right: -100px;
+            <!-- gap: 20px; /* Space between buttons */ -->
+            background-color: none; /* Set background to white for better visibility */
+            border: none; /*1px solid #C1D4E6;  Optional: Add a border around the icon list */
+            z-index: 1000;
+            border-radius: 50px; /* Optional: Add rounded corners */
+        }
+
+        .era-ai-icon-list div {
+            height: 40px;
+            width: 250px;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            cursor: pointer;
+
+        }
+
+        .era-ai-icon-list div:hover {
+            background-color: none; /* Add a subtle hover effect */
+        }
+
+        /* Show the icon list when hovering over the toggle-icon div (image + container) */
+        .toggle-icon:hover .era-ai-icon-list {
+            display: block;
+        }
+
+        /* Disabled state for menu items */
+        .era-ai-icon-list .disabled {
+            pointer-events: none; /* Disable clicking */
+            opacity: 0.5; /* Dim the appearance */
+            cursor: not-allowed; /* Show not-allowed cursor */
+        }
+
+        #TourAIModel {
+            margin-right: 30px; /* Adds space between buttons */
+        }
+        /* Styling for TourAIModel and SQLAIModel */
+        #TourAIModel, #SQLAIModel {
+            display: flex; /* Enables flexbox */
+            padding: 15px 25px;
+            border: 1px solid #C1D4E6;
+            border-radius: 50px;
+            transition: background-color 0.3s ease-in-out;
+            background-color: white; /* Default background */
+            justify-content: center; /* Centers text horizontally */
+            align-items: center; /* Centers text vertically */
+            text-align: center;
+        }
+
+        /* Light hover effect */
+        #TourAIModel:hover, #SQLAIModel:hover {
+            background-color: rgba(220, 220, 220, 0.5); /* Very light gray */
+            border-radius: 50px;
+            cursor: pointer;
+        }
+
+    </style>
+
+   
+</t>
+
+</templates>
