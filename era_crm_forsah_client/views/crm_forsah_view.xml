@@ -12,7 +12,7 @@
                     <field name="days"></field>
                     <field name="active" invisible="1"></field>
                     <field name="tag_ids" widget="many2many_tags"></field>
-                    <button name="forsah_open_link" string="" type="object" class="fa fa-external-link btn-link"/>
+                    <button name="forsah_open_link" string="" type="object" class="fa fa-external-link btn-link" title="forsah_open_link"/>
                     <button name="action_create_lead" string="To Lead" type="object" class="btn-primary hide_button"/> 
                 </list>
             </field>
