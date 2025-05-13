@@ -1,0 +1,715 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* era_ai_client
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-03-23 19:57+0000\n"
+"PO-Revision-Date: 2025-03-23 19:57+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: era_ai_client
+#. odoo-javascript
+#: code:addons/era_ai_client/static/src/js/tour_dialog/tour_ai_dialog.js:0
+#, python-format
+msgid ""
+"\n"
+"Execution stopped ..."
+msgstr ""
+"\n"
+"تم إيقاف التنفيذ ..."
+
+#. module: era_ai_client
+#. odoo-javascript
+#: code:addons/era_ai_client/static/src/js/execute_tour.js:0
+#, python-format
+msgid ""
+"${display_name} \n"
+" Auto Guide Successfully"
+msgstr ""
+"${display_name} \n"
+" إكتمل التوجيه الآلى بنجاح"
+
+#. module: era_ai_client
+#. odoo-javascript
+#: code:addons/era_ai_client/static/src/js/execute_tour.js:0
+#, python-format
+msgid ""
+"${display_name} \n"
+" Manual Guide Successfully"
+msgstr ""
+"${display_name} \n"
+" إكتمل التوجيه اليدوي بنجاح"
+
+#. module: era_ai_client
+#. odoo-python
+#: code:addons/era_ai_client/models/sql_connector.py:0
+#, python-format
+msgid "%s executed successfully. Download the report."
+msgstr "تم تنفيذ %s بنجاح قم بتنزيل التقرير."
+
+#. module: era_ai_client
+#. odoo-python
+#: code:addons/era_ai_client/models/sql_connector.py:0
+#, python-format
+msgid "%s executed successfully. No data to display in the report."
+msgstr "تم تنفيذ %s بنجاح. لا توجد بيانات لعرضها في التقرير."
+
+#. module: era_ai_client
+#. odoo-python
+#: code:addons/era_ai_client/models/sql_connector.py:0
+#, python-format
+msgid "%s executed successfully. No data to display."
+msgstr "تم تنفيذ %s بنجاح. لا توجد بيانات لعرضها."
+
+#. module: era_ai_client
+#. odoo-javascript
+#: code:addons/era_ai_client/static/src/xml/tour_dialog/sql_ai_dialog.xml:0
+#: code:addons/era_ai_client/static/src/xml/tour_dialog/tour_ai_dialog.xml:0
+#, python-format
+msgid "-- Select a sample --"
+msgstr "-- إختر طلب --"
+
+#. module: era_ai_client
+#: model_terms:ir.ui.view,arch_db:era_ai_client.is_ai_tour_res_config_settings_view
+msgid "<span class=\"o_form_label\">Max Tokens</span>"
+msgstr "<span class=\"o_form_label\">الحد الأقصى للرموز</span>"
+
+#. module: era_ai_client
+#: model:ir.model.fields,field_description:era_ai_client.field_res_company__openai_api_key
+msgid "AI API Key"
+msgstr "مفتاح API للذكاء الاصطناعي"
+
+#. module: era_ai_client
+#: model:ir.ui.menu,name:era_ai_client.menu_custom_ai_root
+#: model:ir.ui.menu,name:era_ai_client.menu_custom_ai_submenu
+msgid "AI Log"
+msgstr "سجل الذكاء الاصطناعي"
+
+#. module: era_ai_client
+#. odoo-javascript
+#. odoo-python
+#: code:addons/era_ai_client/models/sql_connector.py:0
+#: code:addons/era_ai_client/static/src/js/tour_dialog/sql_ai_dialog.js:0
+#, python-format
+msgid "AI Report"
+msgstr "تقرير الذكاء الاصطناعي"
+
+#. module: era_ai_client
+#. odoo-javascript
+#: code:addons/era_ai_client/static/src/xml/tour_dialog/ai_bot_button.xml:0
+#, python-format
+msgid "AI Reports   التقارير الذكية"
+msgstr ""
+
+#. module: era_ai_client
+#. odoo-javascript
+#: code:addons/era_ai_client/static/src/js/tour_dialog/ai_bot_button.js:0
+#, python-format
+msgid "AI Reports, How Can I Help You?"
+msgstr "التقارير الذكية، كيف أستطيع مساعدتك ؟"
+
+#. module: era_ai_client
+#: model_terms:ir.ui.view,arch_db:era_ai_client.is_ai_tour_res_config_settings_view
+msgid "AI Settings"
+msgstr "الذكاء الاصطناعي"
+
+#. module: era_ai_client
+#: model_terms:ir.ui.view,arch_db:era_ai_client.is_ai_tour_res_config_settings_view
+msgid "API Key"
+msgstr "مفتاح API"
+
+#. module: era_ai_client
+#: model:ir.model.fields,field_description:era_ai_client.field_sql_connector__active
+#: model:ir.model.fields,field_description:era_ai_client.field_tour_connector__active
+msgid "Active"
+msgstr "نشط"
+
+#. module: era_ai_client
+#: model:ir.model.fields,help:era_ai_client.field_tour_connector__tour_script
+msgid "Add JavaScript code for the tour in JSON syntax."
+msgstr "أضف كود جافا اسكربت للتوجيه في صيغة جيسون."
+
+#. module: era_ai_client
+#: model:ir.model.fields,help:era_ai_client.field_sql_connector__name
+msgid "Add Report Name."
+msgstr "ادخل اسم التقرير"
+
+#. module: era_ai_client
+#: model:ir.model.fields,help:era_ai_client.field_tour_connector__name
+msgid "Add Tour Name."
+msgstr "ادخل عنوان التوجيه"
+
+#. module: era_ai_client
+#: model_terms:ir.ui.view,arch_db:era_ai_client.is_ai_tour_res_config_settings_view
+msgid ""
+"An upper bound for the number of tokens that can be generated \n"
+"                                                for a completion, including visible output tokens and reasoning tokens."
+msgstr ""
+"الحد الأقصى لعدد الرموز التي يمكن إنشاؤها \n"
+" \t\t\t\t\t\t\t\t\t\t\t\t\t\tللإكمال، بما في ذلك رموز الإخراج المرئية ورموز الاستدلال.\n"
+
+#. module: era_ai_client
+#: model:ir.model.fields,help:era_ai_client.field_res_company__max_tokens
+#: model:ir.model.fields,help:era_ai_client.field_res_config_settings__max_tokens
+msgid ""
+"An upper bound for the number of tokens that can be generated \n"
+"                                            for a completion, including visible output tokens and reasoning tokens.\n"
+"                                        "
+msgstr ""
+"الحد الأقصى لعدد الرموز التي يمكن إنشاؤها \n"
+" \t\t\t\t\t\t\t\t\t\t\t\t\t\tللإكمال، بما في ذلك رموز الإخراج المرئية ورموز الاستدلال.\n"
+
+#. module: era_ai_client
+#. odoo-javascript
+#: code:addons/era_ai_client/static/src/xml/tour_dialog/tour_ai_dialog.xml:0
+#, python-format
+msgid "Auto Guide"
+msgstr "توجيه آلى"
+
+#. module: era_ai_client
+#: model:ir.model.fields.selection,name:era_ai_client.selection__tour_connector__tour_mode__auto
+msgid "Automation"
+msgstr "آلى"
+
+#. module: era_ai_client
+#. odoo-javascript
+#: code:addons/era_ai_client/static/src/xml/tour_dialog/tour_ai_dialog.xml:0
+#, python-format
+msgid "Choose the Guide Mode"
+msgstr "اختر طريقة التوجيه"
+
+#. module: era_ai_client
+#. odoo-javascript
+#: code:addons/era_ai_client/static/src/xml/tour_dialog/sql_ai_dialog.xml:0
+#: code:addons/era_ai_client/static/src/xml/tour_dialog/tour_ai_dialog.xml:0
+#, python-format
+msgid "Close"
+msgstr "إغلاق"
+
+#. module: era_ai_client
+#: model:ir.model,name:era_ai_client.model_res_company
+msgid "Companies"
+msgstr "الشركات"
+
+#. module: era_ai_client
+#: model:ir.model.fields,field_description:era_ai_client.field_sql_connector__company_id
+#: model:ir.model.fields,field_description:era_ai_client.field_tour_connector__company_id
+msgid "Company"
+msgstr "الشركة"
+
+#. module: era_ai_client
+#: model:ir.model,name:era_ai_client.model_res_config_settings
+msgid "Config Settings"
+msgstr "تهيئة الإعدادات "
+
+#. module: era_ai_client
+#: model_terms:ir.actions.act_window,help:era_ai_client.action_custom_tour
+msgid "Create your first custom AI Guide!"
+msgstr "أنشئ أول توجيه مخصص للذكاء الاصطناعي!!"
+
+#. module: era_ai_client
+#: model_terms:ir.actions.act_window,help:era_ai_client.action_custom_sql
+msgid "Create your first custom Reports AI !"
+msgstr "قم بإنشاء تقاريرك المخصصة الأولى باستخدام الذكاء الاصطناعي!"
+
+#. module: era_ai_client
+#: model:ir.model.fields,field_description:era_ai_client.field_sql_connector__create_uid
+#: model:ir.model.fields,field_description:era_ai_client.field_tour_connector__create_uid
+msgid "Created by"
+msgstr "تم إنشاؤها بواسطة"
+
+#. module: era_ai_client
+#: model:ir.model.fields,field_description:era_ai_client.field_sql_connector__create_date
+#: model:ir.model.fields,field_description:era_ai_client.field_tour_connector__create_date
+msgid "Created on"
+msgstr "تم إنشاؤها فى"
+
+#. module: era_ai_client
+#: model:ir.model.fields,help:era_ai_client.field_sql_connector__sql_description
+msgid "Descripe the inquery you want to execute."
+msgstr "قم بوصف الاستعلام الذي تريد تنفيذه."
+
+#. module: era_ai_client
+#: model:ir.model.fields,field_description:era_ai_client.field_sql_connector__sql_description
+msgid "Description"
+msgstr "وصف التقرير"
+
+#. module: era_ai_client
+#: model:ir.model.fields,field_description:era_ai_client.field_sql_connector__display_name
+#: model:ir.model.fields,field_description:era_ai_client.field_tour_connector__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: era_ai_client
+#. odoo-javascript
+#: code:addons/era_ai_client/static/src/xml/tour_dialog/sql_ai_dialog.xml:0
+#, python-format
+msgid "Download Report File"
+msgstr "تحميل الملف"
+
+#. module: era_ai_client
+#. odoo-javascript
+#: code:addons/era_ai_client/static/src/xml/tour_dialog/ai_bot_button.xml:0
+#: code:addons/era_ai_client/static/src/xml/tour_dialog/sql_ai_dialog.xml:0
+#: code:addons/era_ai_client/static/src/xml/tour_dialog/sql_ai_dialog.xml:0
+#: code:addons/era_ai_client/static/src/xml/tour_dialog/tour_ai_dialog.xml:0
+#: code:addons/era_ai_client/static/src/xml/tour_dialog/tour_ai_dialog.xml:0
+#, python-format
+msgid "ERA Smart AI"
+msgstr "الذكاء الاصطناعي ERA"
+
+#. module: era_ai_client
+#. odoo-javascript
+#: code:addons/era_ai_client/static/src/xml/tour_dialog/sql_ai_dialog.xml:0
+#, python-format
+msgid "Enter Query here..."
+msgstr "أدخل الاستعلام هنا..."
+
+#. module: era_ai_client
+#. odoo-javascript
+#: code:addons/era_ai_client/static/src/xml/tour_dialog/sql_ai_dialog.xml:0
+#, python-format
+msgid "Enter Report Name ..."
+msgstr "أدخل اسم التقرير ..."
+
+#. module: era_ai_client
+#. odoo-javascript
+#: code:addons/era_ai_client/static/src/xml/tour_dialog/sql_ai_dialog.xml:0
+#, python-format
+msgid "Enter input description here..."
+msgstr "أدخل وصف التقرير هنا..."
+
+#. module: era_ai_client
+#. odoo-javascript
+#: code:addons/era_ai_client/static/src/xml/tour_dialog/tour_ai_dialog.xml:0
+#, python-format
+msgid "Enter input here..."
+msgstr "أدخل الاستعلام هنا..."
+
+#. module: era_ai_client
+#. odoo-javascript
+#: code:addons/era_ai_client/static/src/xml/tour_dialog/tour_ai_dialog.xml:0
+#, python-format
+msgid "Enter script here..."
+msgstr "أدخل النص هنا..."
+
+#. module: era_ai_client
+#. odoo-python
+#: code:addons/era_ai_client/models/tour_connector.py:0
+#, python-format
+msgid "Error"
+msgstr "خطأ"
+
+#. module: era_ai_client
+#: model:ir.model.fields,field_description:era_ai_client.field_sql_connector__execution_message
+msgid "Execution Message"
+msgstr "رسالة التنفيذ"
+
+#. module: era_ai_client
+#: model:ir.model.fields,field_description:era_ai_client.field_sql_connector__state
+#: model:ir.model.fields,field_description:era_ai_client.field_tour_connector__state
+msgid "Execution state"
+msgstr "حالة التنفيذ"
+
+#. module: era_ai_client
+#: model:ir.model.fields,help:era_ai_client.field_tour_connector__tour_steps
+msgid "Explain Steps the user follows to execute the tour."
+msgstr "اشرح الخطوات التي يتبعها المستخدم لتنفيذ الجولة."
+
+#. module: era_ai_client
+#: model:ir.model.fields.selection,name:era_ai_client.selection__sql_connector__state__failed
+#: model:ir.model.fields.selection,name:era_ai_client.selection__tour_connector__state__failed
+msgid "Failed"
+msgstr "فشل"
+
+#. module: era_ai_client
+#. odoo-javascript
+#: code:addons/era_ai_client/static/src/js/tour_dialog/tour_ai_dialog.js:0
+#, python-format
+msgid ""
+"Failed Executing . \n"
+"Execution stopped ...\n"
+msgstr ""
+"فشل التنفيذ . \n"
+"تم ايقاف التنفيذ ...\n"
+
+#. module: era_ai_client
+#. odoo-javascript
+#: code:addons/era_ai_client/static/src/js/tour_dialog/sql_ai_dialog.js:0
+#, python-format
+msgid ""
+"Failed Generating Report \n"
+"Execution stopped ...\n"
+msgstr ""
+"فشل جلب التقرير  \n"
+"تم ايقاف التنفيذ ...\n"
+
+#. module: era_ai_client
+#. odoo-javascript
+#: code:addons/era_ai_client/static/src/js/tour_dialog/sql_ai_dialog.js:0
+#, python-format
+msgid "Failed Generating Report, Try again later.."
+msgstr "فشل جلب التقرير، أعد المحاولة لاحقًا.."
+
+#. module: era_ai_client
+#. odoo-javascript
+#: code:addons/era_ai_client/static/src/js/tour_dialog/tour_ai_dialog.js:0
+#, python-format
+msgid "Failed executing tour, Try again later.."
+msgstr "فشل تنفيذ التوجيه، أعد المحاولة لاحقًا.."
+
+#. module: era_ai_client
+#. odoo-python
+#: code:addons/era_ai_client/models/res_company.py:0
+#, python-format
+msgid "Failed to call AI service"
+msgstr "فشل في الاتصال بخدمة الذكاء الاصطناعي"
+
+#. module: era_ai_client
+#. odoo-javascript
+#: code:addons/era_ai_client/static/src/js/execute_tour.js:0
+#, python-format
+msgid ""
+"Failed to execute the tour.\n"
+" Please reload the page and try again."
+msgstr ""
+"فشل تنفيذ التوجيه.\n"
+"سيتم إعادة تحميل الصفحة واعد المحاولة مرة أخرى."
+
+#. module: era_ai_client
+#. odoo-python
+#: code:addons/era_ai_client/models/tour_connector.py:0
+#, python-format
+msgid "Failed to generate the tour script no prompt added"
+msgstr "فشل توليد التوجيه لايوجد مدخلات"
+
+#. module: era_ai_client
+#: model:ir.ui.menu,name:era_ai_client.menu_custom_tour
+msgid "Guide You AI"
+msgstr "الموجه الذكى"
+
+#. module: era_ai_client
+#: model:ir.actions.act_window,name:era_ai_client.action_custom_tour
+msgid "Guide You Log"
+msgstr "سجل الموجه الذكى"
+
+#. module: era_ai_client
+#. odoo-javascript
+#: code:addons/era_ai_client/static/src/js/tour_dialog/ai_bot_button.js:0
+#, python-format
+msgid "Guide You, How Can I Help You?"
+msgstr "التوجيه الذكى، كيف أستطيع مساعدتك ؟"
+
+#. module: era_ai_client
+#. odoo-javascript
+#: code:addons/era_ai_client/static/src/js/execute_tour.js:0
+#, python-format
+msgid "Guide completed successfully."
+msgstr "تم اكتمال التوجيه بنجاح"
+
+#. module: era_ai_client
+#. odoo-javascript
+#: code:addons/era_ai_client/static/src/xml/tour_dialog/ai_bot_button.xml:0
+#, python-format
+msgid "Guide me   توجيه"
+msgstr ""
+
+#. module: era_ai_client
+#: model:ir.model,name:era_ai_client.model_ir_http
+msgid "HTTP Routing"
+msgstr "مسار HTTP"
+
+#. module: era_ai_client
+#: model:ir.model.fields,field_description:era_ai_client.field_sql_connector__id
+#: model:ir.model.fields,field_description:era_ai_client.field_tour_connector__id
+msgid "ID"
+msgstr ""
+
+#. module: era_ai_client
+#. odoo-javascript
+#: code:addons/era_ai_client/static/src/js/tour_dialog/sql_ai_dialog.js:0
+#, python-format
+msgid ""
+"It seems like your prompt is unclear. Could you please provide clear and more details? \n"
+"Execution stopped ..."
+msgstr ""
+"يبدو أن طلبك غير واضح. هل يمكنك تقديم تفاصيل أكثر وضوحًا؟ \n"
+"توقف التنفيذ.."
+
+#. module: era_ai_client
+#. odoo-javascript
+#: code:addons/era_ai_client/static/src/js/tour_dialog/tour_ai_dialog.js:0
+#, python-format
+msgid ""
+"It seems like your prompt is unclear. or  \n"
+"Execution stopped ..."
+msgstr ""
+"يبدو أن طلبك غير واضح. او  \n"
+"توقف التنفيذ.."
+
+#. module: era_ai_client
+#: model:ir.model.fields,field_description:era_ai_client.field_sql_connector__write_uid
+#: model:ir.model.fields,field_description:era_ai_client.field_tour_connector__write_uid
+msgid "Last Updated by"
+msgstr "آخر تحديث بواسطة"
+
+#. module: era_ai_client
+#: model:ir.model.fields,field_description:era_ai_client.field_sql_connector__write_date
+#: model:ir.model.fields,field_description:era_ai_client.field_tour_connector__write_date
+msgid "Last Updated on"
+msgstr "آخر تحديث فى"
+
+#. module: era_ai_client
+#: model:ir.model.fields.selection,name:era_ai_client.selection__tour_connector__tour_mode__manual
+msgid "Manual"
+msgstr "يدوى"
+
+#. module: era_ai_client
+#. odoo-javascript
+#: code:addons/era_ai_client/static/src/xml/tour_dialog/tour_ai_dialog.xml:0
+#, python-format
+msgid "Manual Guide"
+msgstr "توجيه يدوى"
+
+#. module: era_ai_client
+#: model:ir.model.fields,field_description:era_ai_client.field_res_company__max_tokens
+#: model:ir.model.fields,field_description:era_ai_client.field_res_config_settings__max_tokens
+msgid "Max Tokens"
+msgstr "الحد الأقصى للرموز"
+
+#. module: era_ai_client
+#: model:ir.model.fields,field_description:era_ai_client.field_tour_connector__name
+msgid "Name"
+msgstr "الوصف"
+
+#. module: era_ai_client
+#. odoo-javascript
+#: code:addons/era_ai_client/static/src/js/tour_dialog/sql_ai_dialog.js:0
+#, python-format
+msgid "No Query found to executed..."
+msgstr "لا يوجد استعلام لتنفيذه..."
+
+#. module: era_ai_client
+#. odoo-javascript
+#: code:addons/era_ai_client/static/src/js/tour_dialog/sql_ai_dialog.js:0
+#, python-format
+msgid "No report generated."
+msgstr "لم يتم توليد تقرير"
+
+#. module: era_ai_client
+#: model:ir.model.fields,field_description:era_ai_client.field_res_config_settings__openai_api_key
+#: model_terms:ir.ui.view,arch_db:era_ai_client.is_ai_tour_res_config_settings_view
+msgid "OpenAI API Key"
+msgstr "مفتاح API OpenAI"
+
+#. module: era_ai_client
+#. odoo-python
+#: code:addons/era_ai_client/models/res_company.py:0
+#, python-format
+msgid "Please check your subscription with Era Group  info@era.net.sa"
+msgstr "يرجى التحقق من اشتراكك مع مجموعة إيرا info@era.net.sa"
+
+#. module: era_ai_client
+#. odoo-javascript
+#: code:addons/era_ai_client/static/src/js/tour_dialog/sql_ai_dialog.js:0
+#: code:addons/era_ai_client/static/src/js/tour_dialog/sql_ai_dialog.js:0
+#: code:addons/era_ai_client/static/src/js/tour_dialog/sql_ai_dialog.js:0
+#: code:addons/era_ai_client/static/src/js/tour_dialog/tour_ai_dialog.js:0
+#: code:addons/era_ai_client/static/src/js/tour_dialog/tour_ai_dialog.js:0
+#: code:addons/era_ai_client/static/src/js/tour_dialog/tour_ai_dialog.js:0
+#, python-format
+msgid "Please, try again!"
+msgstr "الرجاء المحاولة لاحقا!"
+
+#. module: era_ai_client
+#. odoo-javascript
+#: code:addons/era_ai_client/static/src/js/tour_dialog/sql_ai_dialog.js:0
+#: code:addons/era_ai_client/static/src/js/tour_dialog/tour_ai_dialog.js:0
+#, python-format
+msgid "Processing....."
+msgstr "الرجاء الانتظار ، جاري المعالجة....."
+
+#. module: era_ai_client
+#: model:ir.model.fields,help:era_ai_client.field_sql_connector__sql_query
+msgid "Query code for the SQL to execute."
+msgstr "كود الاستعلام الذي سيتم تنفيذه SQL. "
+
+#. module: era_ai_client
+#: model:ir.model.fields,field_description:era_ai_client.field_sql_connector__report_filename
+msgid "Report Filename"
+msgstr "اسم ملف التقرير"
+
+#. module: era_ai_client
+#: model:ir.model.fields,field_description:era_ai_client.field_sql_connector__name
+msgid "Report Name"
+msgstr "اسم التقرير"
+
+#. module: era_ai_client
+#: model:ir.actions.act_window,name:era_ai_client.action_custom_sql
+#: model:ir.ui.menu,name:era_ai_client.menu_custom_sql
+msgid "Reports AI"
+msgstr "التقارير الذكية"
+
+#. module: era_ai_client
+#: model:ir.model.fields,field_description:era_ai_client.field_sql_connector__response_report_file
+msgid "Response Report File"
+msgstr "ملف التقرير"
+
+#. module: era_ai_client
+#: model:ir.model,name:era_ai_client.model_sql_connector
+msgid "SQL Connector"
+msgstr "استعلام التقارير"
+
+#. module: era_ai_client
+#: model:ir.model.fields,field_description:era_ai_client.field_sql_connector__sql_query
+msgid "SQL Query"
+msgstr "استعلام التقارير"
+
+#. module: era_ai_client
+#: model:ir.model.fields,field_description:era_ai_client.field_res_company__schema_last_update
+msgid "Schema Last Update"
+msgstr "اخر تحديث لهيكل قاعدة البيانات"
+
+#. module: era_ai_client
+#. odoo-javascript
+#: code:addons/era_ai_client/static/src/xml/tour_dialog/tour_ai_dialog.xml:0
+#, python-format
+msgid "Script"
+msgstr "الاستعلام"
+
+#. module: era_ai_client
+#. odoo-javascript
+#: code:addons/era_ai_client/static/src/xml/tour_dialog/sql_ai_dialog.xml:0
+#: code:addons/era_ai_client/static/src/xml/tour_dialog/tour_ai_dialog.xml:0
+#, python-format
+msgid "Select a Sample"
+msgstr "الطلبات السابقة"
+
+#. module: era_ai_client
+#. odoo-javascript
+#: code:addons/era_ai_client/static/src/xml/tour_dialog/sql_ai_dialog.xml:0
+#: code:addons/era_ai_client/static/src/xml/tour_dialog/tour_ai_dialog.xml:0
+#, python-format
+msgid "Send request.."
+msgstr "ارسل الطلب.."
+
+#. module: era_ai_client
+#. odoo-python
+#: code:addons/era_ai_client/models/res_company.py:0
+#: code:addons/era_ai_client/models/res_company.py:0
+#, python-format
+msgid "Service error: %s"
+msgstr "خطأ في الخدمة: %s"
+
+#. module: era_ai_client
+#: model:ir.model.fields,field_description:era_ai_client.field_tour_connector__pointer_duration
+msgid "Show Pointer Duration"
+msgstr "مدة ظهور المؤشر"
+
+#. module: era_ai_client
+#. odoo-javascript
+#: code:addons/era_ai_client/static/src/js/tour_dialog/sql_ai_dialog.js:0
+#: code:addons/era_ai_client/static/src/js/tour_dialog/sql_ai_dialog.js:0
+#, python-format
+msgid "Sorry, This AI is for Reporting only..."
+msgstr "عذرًا، هذا الذكاء الاصطناعي مخصص لإعداد التقارير فقط..."
+
+#. module: era_ai_client
+#: model:ir.model.fields,field_description:era_ai_client.field_tour_connector__step_delay
+msgid "Step Delay"
+msgstr "مدة الخطوة"
+
+#. module: era_ai_client
+#: model:ir.model.fields.selection,name:era_ai_client.selection__sql_connector__state__success
+#: model:ir.model.fields.selection,name:era_ai_client.selection__tour_connector__state__success
+msgid "Success"
+msgstr "نجاح"
+
+#. module: era_ai_client
+#. odoo-javascript
+#: code:addons/era_ai_client/static/src/js/tour_dialog/tour_ai_dialog.js:0
+#, python-format
+msgid "The Guide Start Successfully .."
+msgstr "بدأ التوجيه بنجاح .."
+
+#. module: era_ai_client
+#. odoo-javascript
+#: code:addons/era_ai_client/static/src/js/tour_dialog/sql_ai_dialog.js:0
+#, python-format
+msgid "The Request executed successfully.."
+msgstr " تم التنفيذ بنجاح .."
+
+#. module: era_ai_client
+#: model:ir.model,name:era_ai_client.model_tour_connector
+msgid "Tour Connector"
+msgstr "ربط التوجيه"
+
+#. module: era_ai_client
+#: model_terms:ir.ui.view,arch_db:era_ai_client.view_sql_form
+msgid "Tour Instructions"
+msgstr "تعليمات الموجه الذكى"
+
+#. module: era_ai_client
+#: model:ir.model.fields,field_description:era_ai_client.field_tour_connector__tour_mode
+msgid "Tour Mode"
+msgstr "نوع التوجيه"
+
+#. module: era_ai_client
+#: model:ir.model.fields,field_description:era_ai_client.field_tour_connector__tour_script
+msgid "Tour Script"
+msgstr "استعلامات التوجيه"
+
+#. module: era_ai_client
+#. odoo-javascript
+#: code:addons/era_ai_client/static/src/js/execute_tour.js:0
+#, python-format
+msgid "Tour Script is undefined! Check if it is passed correctly."
+msgstr "خطأ استعلام التوجيه! تأكد من المدخلات "
+
+#. module: era_ai_client
+#: model:ir.model.fields,field_description:era_ai_client.field_tour_connector__tour_steps
+msgid "Tour Steps"
+msgstr "خطوات التوجيه"
+
+#. module: era_ai_client
+#. odoo-javascript
+#: code:addons/era_ai_client/static/src/xml/tour_dialog/sql_ai_dialog.xml:0
+#: code:addons/era_ai_client/static/src/xml/tour_dialog/tour_ai_dialog.xml:0
+#, python-format
+msgid "Try again for the last request..."
+msgstr "حاول مرة أخرى للطلب الأخير..."
+
+#. module: era_ai_client
+#. odoo-javascript
+#: code:addons/era_ai_client/static/src/js/tour_dialog/tour_ai_dialog.js:0
+#, python-format
+msgid "Will try again, Please don't Leave.."
+msgstr "سأحاول مرة أخرى، من فضلك إنتظر قليلا ولا تغادر.."
+
+#. module: era_ai_client
+#: model_terms:ir.ui.view,arch_db:era_ai_client.view_tour_form
+msgid "Write Execute Steps here..."
+msgstr "اكتب خطوات التنفيذ هنا..."
+
+#. module: era_ai_client
+#: model_terms:ir.ui.view,arch_db:era_ai_client.view_sql_form
+msgid "Write report description..."
+msgstr "اكتب وصف التقرير..."
+
+#. module: era_ai_client
+#: model_terms:ir.ui.view,arch_db:era_ai_client.view_tour_form
+msgid "Write your JavaScript tour script here..."
+msgstr "اكتب نص التوجيه بلغة JavaScript هنا..."
+
+#. module: era_ai_client
+#: model:ir.model.fields,field_description:era_ai_client.field_res_company__schema_instructions
+msgid "db schema"
+msgstr "هيكل قاعدة البيانات"

@@ -1,0 +1,3 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_tour_connector_user,access_tour_connector_user,model_tour_connector,,1,1,1,1
+access_sql_connector_user,access_sql_connector_user,model_sql_connector,,1,1,1,1
