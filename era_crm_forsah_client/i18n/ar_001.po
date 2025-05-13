@@ -1,0 +1,232 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* era_crm_forsah_client
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-06-26 12:53+0000\n"
+"PO-Revision-Date: 2024-06-26 12:53+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: era_crm_forsah_client
+#: model_terms:ir.ui.view,arch_db:era_crm_forsah_client.crm_etimad_form_client
+#: model_terms:ir.ui.view,arch_db:era_crm_forsah_client.crm_forsah_tree
+msgid "Caption"
+msgstr ""
+
+#. module: era_crm_forsah_client
+#: model:ir.model.fields,field_description:era_crm_forsah_client.field_crm_etimad_client__category
+#: model:ir.model.fields,field_description:era_crm_forsah_client.field_crm_forsah_client__category
+msgid "Category"
+msgstr "التصنيفات"
+
+#. module: era_crm_forsah_client
+#: model:ir.model.fields,field_description:era_crm_forsah_client.field_crm_forsah_client__city
+msgid "City"
+msgstr "المدينة"
+
+#. module: era_crm_forsah_client
+#: model:ir.model.fields,field_description:era_crm_forsah_client.field_crm_etimad_client__company
+msgid "Company"
+msgstr "الشركة"
+
+#. module: era_crm_forsah_client
+#: model:ir.model.fields,field_description:era_crm_forsah_client.field_crm_etimad_client__create_uid
+#: model:ir.model.fields,field_description:era_crm_forsah_client.field_crm_etimad_tag_client__create_uid
+#: model:ir.model.fields,field_description:era_crm_forsah_client.field_crm_forsah_client__create_uid
+#: model:ir.model.fields,field_description:era_crm_forsah_client.field_crm_forsah_tag_client__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: era_crm_forsah_client
+#: model:ir.model.fields,field_description:era_crm_forsah_client.field_crm_etimad_client__create_date
+#: model:ir.model.fields,field_description:era_crm_forsah_client.field_crm_etimad_tag_client__create_date
+#: model:ir.model.fields,field_description:era_crm_forsah_client.field_crm_forsah_client__create_date
+#: model:ir.model.fields,field_description:era_crm_forsah_client.field_crm_forsah_tag_client__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: era_crm_forsah_client
+#: model:ir.actions.act_window,name:era_crm_forsah_client.crm_etimad_form_client_act_window
+msgid "Crm Etimad"
+msgstr " منصة اعتماد"
+
+#. module: era_crm_forsah_client
+#: model:ir.actions.act_window,name:era_crm_forsah_client.crm_etimad_tag_form_act_window_client
+msgid "Crm Etimad Tag"
+msgstr "تصنيفات اعتماد"
+
+#. module: era_crm_forsah_client
+#: model:ir.actions.act_window,name:era_crm_forsah_client.crm_forsah_tree_act_window
+msgid "Crm Forsah"
+msgstr " منصة فرصة"
+
+#. module: era_crm_forsah_client
+#: model:ir.actions.act_window,name:era_crm_forsah_client.crm_forsah_tag_form_act_window_client
+msgid "Crm forsah Tag"
+msgstr "تصنيفات فرصة"
+
+#. module: era_crm_forsah_client
+#: model:ir.model.fields,field_description:era_crm_forsah_client.field_crm_etimad_client__days
+#: model:ir.model.fields,field_description:era_crm_forsah_client.field_crm_forsah_client__days
+msgid "Days"
+msgstr "الايام"
+
+
+#. module: era_crm_forsah_client
+#: model:ir.model.fields,field_description:era_crm_forsah_client.field_crm_etimad_client__field
+#: model:ir.model.fields,field_description:era_crm_forsah_client.field_crm_forsah_client__field
+msgid "field"
+msgstr "النشاط الرئيسي"
+
+#. module: era_crm_forsah_client
+#: model:ir.model.fields,field_description:era_crm_forsah_client.field_crm_etimad_client__display_name
+#: model:ir.model.fields,field_description:era_crm_forsah_client.field_crm_etimad_tag_client__display_name
+#: model:ir.model.fields,field_description:era_crm_forsah_client.field_crm_forsah_client__display_name
+#: model:ir.model.fields,field_description:era_crm_forsah_client.field_crm_forsah_tag_client__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: era_crm_forsah_client
+#: model:ir.actions.server,name:era_crm_forsah_client.etimad_cron_ir_actions_server
+msgid "Etimad Cron Job"
+msgstr "جلب البيانات منصة اعتماد"
+
+#. module: era_crm_forsah_client
+#: model:ir.ui.menu,name:era_crm_forsah_client.crm_etimad_tag_menu_id_client
+msgid "Etimad Tags"
+msgstr " تصنيفات اعتماد"
+
+#. module: era_crm_forsah_client
+#: model:ir.actions.server,name:era_crm_forsah_client.forsah_cron_ir_actions_server
+msgid "Forsah Cron Job"
+msgstr "جلب البيانات منصة فرصة"
+
+#. module: era_crm_forsah_client
+#: model:ir.ui.menu,name:era_crm_forsah_client.crm_forsah_tag_menu_id_client
+msgid "Forsah Tags"
+msgstr "تصنيفات فرصة"
+
+#. module: era_crm_forsah_client
+#: model:ir.model.fields,field_description:era_crm_forsah_client.field_crm_etimad_client__etimad_id
+#: model:ir.model.fields,field_description:era_crm_forsah_client.field_crm_etimad_client__id
+#: model:ir.model.fields,field_description:era_crm_forsah_client.field_crm_etimad_tag_client__id
+#: model:ir.model.fields,field_description:era_crm_forsah_client.field_crm_forsah_client__forsah_id
+#: model:ir.model.fields,field_description:era_crm_forsah_client.field_crm_forsah_client__id
+#: model:ir.model.fields,field_description:era_crm_forsah_client.field_crm_forsah_tag_client__id
+msgid "ID"
+msgstr ""
+
+#. module: era_crm_forsah_client
+#: model:ir.model.fields,field_description:era_crm_forsah_client.field_crm_etimad_client__write_uid
+#: model:ir.model.fields,field_description:era_crm_forsah_client.field_crm_etimad_tag_client__write_uid
+#: model:ir.model.fields,field_description:era_crm_forsah_client.field_crm_forsah_client__write_uid
+#: model:ir.model.fields,field_description:era_crm_forsah_client.field_crm_forsah_tag_client__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: era_crm_forsah_client
+#: model:ir.model.fields,field_description:era_crm_forsah_client.field_crm_etimad_client__write_date
+#: model:ir.model.fields,field_description:era_crm_forsah_client.field_crm_etimad_tag_client__write_date
+#: model:ir.model.fields,field_description:era_crm_forsah_client.field_crm_forsah_client__write_date
+#: model:ir.model.fields,field_description:era_crm_forsah_client.field_crm_forsah_tag_client__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: era_crm_forsah_client
+#: model:ir.model.fields,field_description:era_crm_forsah_client.field_crm_etimad_client__limit
+msgid "Limit"
+msgstr "آخر وقت للتقديم"
+
+#. module: era_crm_forsah_client
+#: model:ir.model.fields,field_description:era_crm_forsah_client.field_crm_etimad_client__link
+#: model:ir.model.fields,field_description:era_crm_forsah_client.field_crm_forsah_client__link
+msgid "Link"
+msgstr "رابط"
+
+#. module: era_crm_forsah_client
+#: model:ir.model.fields,field_description:era_crm_forsah_client.field_crm_etimad_client__name
+#: model:ir.model.fields,field_description:era_crm_forsah_client.field_crm_etimad_tag_client__name
+#: model:ir.model.fields,field_description:era_crm_forsah_client.field_crm_forsah_client__name
+#: model:ir.model.fields,field_description:era_crm_forsah_client.field_crm_forsah_tag_client__name
+msgid "Name"
+msgstr "الاسم"
+
+#. module: era_crm_forsah_client
+#: model:ir.ui.menu,name:era_crm_forsah_client.crm_etimad_menu_id_client
+msgid "Portal Etimad"
+msgstr "منصة اعتماد"
+
+#. module: era_crm_forsah_client
+#: model:ir.ui.menu,name:era_crm_forsah_client.crm_forsah_menu_id
+msgid "Portal Forsah"
+msgstr "منصة فرصة"
+
+#. module: era_crm_forsah_client
+#: model:ir.model.fields,field_description:era_crm_forsah_client.field_crm_etimad_client__publish
+msgid "Publish"
+msgstr "تاريخ النشر"
+
+#. module: era_crm_forsah_client
+#: model:ir.model.fields,field_description:era_crm_forsah_client.field_crm_etimad_client__questions
+msgid "Questions"
+msgstr "حد الاستفسارات"
+
+#. module: era_crm_forsah_client
+#: model:ir.model.fields,field_description:era_crm_forsah_client.field_crm_etimad_client__ref
+msgid "Ref"
+msgstr "مرجع"
+
+#. module: era_crm_forsah_client
+#: model:ir.model.fields,field_description:era_crm_forsah_client.field_crm_forsah_client__size
+msgid "Size"
+msgstr "الحجم"
+
+#. module: era_crm_forsah_client
+#: model:ir.model.fields,field_description:era_crm_forsah_client.field_crm_etimad_client__tag_ids
+#: model:ir.model.fields,field_description:era_crm_forsah_client.field_crm_forsah_client__tag_ids
+msgid "Tag"
+msgstr "تصنيفات فرصة"
+
+#. module: era_crm_forsah_client
+#: model_terms:ir.ui.view,arch_db:era_crm_forsah_client.crm_etimad_form_client
+#: model_terms:ir.ui.view,arch_db:era_crm_forsah_client.crm_forsah_tree
+msgid "To Lead"
+msgstr "انشاء فرصة"
+
+#. module: era_crm_forsah_client
+#: model:ir.model.fields,field_description:era_crm_forsah_client.field_crm_etimad_client__cost
+msgid "cost"
+msgstr "الكراس"
+
+#. module: era_crm_forsah_client
+#: model:ir.model,name:era_crm_forsah_client.model_crm_etimad_client
+msgid "crm_etimad"
+msgstr "منصة اعتماد"
+
+#. module: era_crm_forsah_client
+#: model:ir.model,name:era_crm_forsah_client.model_crm_etimad_tag_client
+msgid "crm_etimad_tag"
+msgstr "تصنيفات اعتماد"
+
+#. module: era_crm_forsah_client
+#: model:ir.model,name:era_crm_forsah_client.model_crm_forsah_client
+msgid "crm_forsah_client"
+msgstr "منصة فرصة"
+
+#. module: era_crm_forsah_client
+#: model:ir.model,name:era_crm_forsah_client.model_crm_forsah_tag_client
+msgid "crm_forsah_tag"
+msgstr "تصنيفات فرصة"
+
+#. module: era_crm_forsah_client
+#: model:ir.model.fields,field_description:era_crm_forsah_client.field_crm_etimad_client__method
+msgid "method"
+msgstr "التعميد"

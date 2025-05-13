@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="crm_forsah_tree" model="ir.ui.view">
+            <field name="name">crm.forsah.client.form</field>
+            <field name="model">crm.forsah.client</field>
+            <field name="arch" type="xml">
+                <list string="Caption" create="true" delete="true" edit="true" editable="bottom" default_order="id asc">
+                    <field name="name"></field>
+                    <field name="size"></field>
+                    <field name="city"></field>
+                    <field name="days"></field>
+                    <field name="active" invisible="1"></field>
+                    <field name="tag_ids" widget="many2many_tags"></field>
+                    <button name="forsah_open_link" string="" type="object" class="fa fa-external-link btn-link"/>
+                    <button name="action_create_lead" string="To Lead" type="object" class="btn-primary hide_button"/> 
+                </list>
+            </field>
+        </record> 
+ 
+        <record id="crm_forsah_tree_act_window" model="ir.actions.act_window">
+                <field name="type">ir.actions.act_window</field>
+                <field name="name">Crm Forsah</field>
+                <field name="res_model">crm.forsah.client</field>
+                <field name="view_mode">list</field>
+        </record>
+        <menuitem id="crm_forsah_menu_id" parent="crm.crm_menu_root" name="Portal Forsah"  action="crm_forsah_tree_act_window"  sequence="2"/>
+    
+<!-- ##################### Tags #########################-->
+
+        <record id="crm_forsah_tag_form_act_window_client" model="ir.actions.act_window">
+            <field name="type">ir.actions.act_window</field>
+            <field name="name">Crm forsah Tag</field>
+            <field name="res_model">crm.forsah.tag.client</field>
+            <field name="view_mode">list</field>
+        </record>
+        <menuitem id="crm_forsah_tag_menu_id_client" parent="crm.crm_menu_config" name="Forsah Tags"  action="crm_forsah_tag_form_act_window_client"  sequence="4"/>
+</data>
+</odoo>
